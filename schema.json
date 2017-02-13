@@ -1,0 +1,30 @@
+{
+  "models" : [
+    {
+        "name" : "Group",
+        "table" : "groups",
+        "fields" : [
+            {
+                "name" : "name",
+                "type" : "string",
+                "nullable" : false
+            }
+        ],
+        "timestamps" : true,
+        "softDeletes" : true
+    },
+    {
+        "name" : "Student",
+        "table" : "students",
+        "fields" : [
+            {
+                "name" : "name",
+                "type" : "string",
+                "nullable" : true
+            }
+        ],
+        "timestamps" : true,
+        "softDeletes" : true
+    }
+  ]
+}
